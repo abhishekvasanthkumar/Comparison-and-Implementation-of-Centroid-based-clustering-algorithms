@@ -4,7 +4,7 @@ import csv
 import sys
 import matplotlib.pyplot as plt
 
-f = open('Iris.csv', 'r')
+f = open('IrisDataSet.csv', 'r')
 reader = csv.reader(f)
 SAMPLES = list()
 firstline = False
