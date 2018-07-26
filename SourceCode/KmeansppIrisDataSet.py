@@ -3,7 +3,7 @@ import math
 import csv
 import sys
 
-f = open('Iris.csv', 'r')
+f = open('IrisDataSet.csv', 'r')
 reader = csv.reader(f)
 SAMPLES = list()
 firstline = False
