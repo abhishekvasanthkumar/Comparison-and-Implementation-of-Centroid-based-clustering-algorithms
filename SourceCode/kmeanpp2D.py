@@ -4,7 +4,7 @@ import csv
 import sys
 import matplotlib.pyplot as plt
 
-f = open('2d_1.csv', 'r')
+f = open('Dataset2D_1.csv', 'r')
 reader = csv.reader(f)
 SAMPLES = list()
 
